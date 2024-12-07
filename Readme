@@ -1,0 +1,57 @@
+# Cube Movement Game
+
+This is a simple Unity game where a cube can be moved using either the **arrow keys** or the **W, A, S, D** keys. The cube rotates as it moves, giving a rolling effect.
+
+## Features
+- **Smooth Cube Movement**: The cube rolls in the direction of input.
+- **Dual Controls**: Control the cube using either arrow keys or W, A, S, D keys.
+- **Customizable Speed**: Easily adjust the movement speed.
+
+## How to Play
+- Press **W** or **Up Arrow** to move the cube forward.
+- Press **S** or **Down Arrow** to move the cube backward.
+- Press **A** or **Left Arrow** to move the cube left.
+- Press **D** or **Right Arrow** to move the cube right.
+
+## How to Run the Game
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/cube-movement-game.git
+Open the project in Unity.
+Press the Play button in the Unity Editor to start the game.
+Installation
+Unity Version: Make sure you have Unity 2021.3 or higher installed.
+Import this project into Unity to start editing or testing the game.
+Code Overview
+Main Script: Move.cs
+This script handles the movement of the cube. The key parts include:
+
+Movement Input: Checks for input from both arrow keys and W, A, S, D keys.
+Roll Effect: The cube rolls in the given direction using Transform.RotateAround.
+Key Variables:
+speed: Adjust the movement speed of the cube.
+isMoving: Ensures the cube finishes its current roll before accepting new input.
+How to Customize
+Change Speed: Modify the speed variable in the Unity Inspector to adjust how fast the cube rolls.
+Input Keys: Update the input keys in the Update method inside Move.cs to customize controls.
+Screenshots
+(Include some screenshots of the game if possible)
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Contributions
+Feel free to fork this repository, submit pull requests, or report issues. Contributions are welcome!
+
+Contact
+If you have any questions or feedback, feel free to reach out to:
+
+Email: suhas.manjunatha.h@gmail.com
+GitHub: Su-has52
+
+### Steps to Use:
+1. Replace placeholders such as `your-username`, `your-email@example.com`, and project-specific information with your details.
+2. Include screenshots of your game in the repository and link them in the `Screenshots` section for better presentation.
+3. Add a `LICENSE` file if necessary (e.g., MIT License, GPL, etc.).
+
+This `README.md` will help others understand your project and get started easily.
